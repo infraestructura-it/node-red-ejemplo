@@ -43,5 +43,39 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "917f62025e20ce0b",
+        "type": "file",
+        "z": "5fd8ec0640d2929c",
+        "name": "",
+        "filename": "",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 300,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fb687636c7ee1473",
+        "type": "file",
+        "z": "5fd8ec0640d2929c",
+        "name": "",
+        "filename": "",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 300,
+        "y": 400,
+        "wires": [
+            []
+        ]
     }
 ]
