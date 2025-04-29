@@ -77,5 +77,63 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "974eb0a45ec66ea5",
+        "type": "csv",
+        "z": "5fd8ec0640d2929c",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 210,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "45b8fbcf8d12f8ac",
+        "type": "csv",
+        "z": "5fd8ec0640d2929c",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d3bf48e2598dc01",
+        "type": "json",
+        "z": "5fd8ec0640d2929c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 390,
+        "y": 240,
+        "wires": [
+            []
+        ]
     }
 ]
