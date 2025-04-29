@@ -1,1 +1,47 @@
-[]
+[
+    {
+        "id": "5fd8ec0640d2929c",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "883a3aaf062a0063",
+        "type": "catch",
+        "z": "5fd8ec0640d2929c",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 230,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29328b27807c04e2",
+        "type": "status",
+        "z": "5fd8ec0640d2929c",
+        "name": "",
+        "scope": null,
+        "x": 150,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71ee2f7b458f8ae0",
+        "type": "link in",
+        "z": "5fd8ec0640d2929c",
+        "name": "link in 1",
+        "links": [],
+        "x": 185,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    }
+]
