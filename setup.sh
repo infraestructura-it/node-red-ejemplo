@@ -62,7 +62,13 @@ EOF
 }
 EOF
 
-  cd ..
+  # 👉 NUEVO: Inicializar package.json y instalar Node-RED localmente
+  echo "📦 Inicializando entorno Node.js local en .node-red..."
+  cd .node-red || exit 1
+  npm init -y
+  npm install node-red
+  cd ../..
+
 else
   echo "❌ Salteando creación de estructura."
 fi
